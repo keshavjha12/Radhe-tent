@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-royal-red: #9B1C1C;       /* Indian festival crimson red */
+  --color-gold-light: #FEF3C7;     /* Warm amber gold mist */
+  --color-gold-mid: #D4AF37;       /* Auspicious Metallic Wedding Gold */
+  --color-gold-dark: #AC7E1E;      /* Elegant Ochre Gold */
+  --color-offwhite: #FDFBF7;       /* Luxury Ivory background (extremely premium and warm) */
+  --color-deep-maroon: #5B0E0E;    /* Deepest maroon for headings and VIP highlights */
+  --color-festive-yellow: #FFFBEB; /* Soft warming Indian Marigold yellow highlights */
+  
+  /* Standard light theme color maps for ultimate accessibility and visual comfort */
+  --color-white: #FFFFFF;
+  --color-gray-50: #FAFAFA;
+  --color-gray-100: #F4F4F5;
+  --color-gray-200: #E4E4E7;
+  --color-gray-300: #D4D4D8;
+  --color-gray-400: #A1A1AA;
+  --color-gray-500: #71717A;
+  --color-gray-600: #52525B;
+  --color-gray-700: #3F3F46;
+  --color-gray-800: #27272A;
+  --color-gray-900: #18181B;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Montserrat", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --animate-float: float-anim 4s ease-in-out infinite;
+  --animate-float-delayed: float-anim-delayed 5s ease-in-out infinite;
+  --animate-pulse-slow: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-marquee: marquee 35s linear infinite;
+  --animate-shimmer: shimmer 2.5s infinite linear;
+}
+
+@keyframes float-anim {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(1deg); }
+}
+
+@keyframes float-anim-delayed {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(-1.5deg); }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.03); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom styles for high-end wedding feel */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFE082 0%, #D4AF37 50%, #B45309 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #FFE082 0%, #D4AF37 50%, #B45309 100%);
+}
+
+.text-gold-shimmer {
+  background: linear-gradient(90deg, #D4AF37 0%, #FFE082 25%, #D4AF37 50%, #FFE082 75%, #D4AF37 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+
+/* Geometrical traditional patterns adapted to Natural Tones */
+.bg-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23D4AF37' fill-opacity='0.035' fill-rule='evenodd'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+}
+
+/* Mithila Geometric Fish-scale or Checkered pattern styling (Light theme friendly) */
+.mithila-pattern-bg {
+  background-color: #FFFDF9;
+  background-image: 
+    radial-gradient(circle at 100% 150%, #FEF3C7 24%, #FFFDF9 24%, #FFFDF9 28%, #FEF3C7 28%, #FEF3C7 36%, #FFFDF9 36%, #FFFDF9 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0% 150%, #FEF3C7 24%, #FFFDF9 24%, #FFFDF9 28%, #FEF3C7 28%, #FEF3C7 36%, #FFFDF9 36%, #FFFDF9 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50% 100%, #FDE68A 10%, transparent 10%),
+    radial-gradient(circle at 100% 50%, #FEF3C7 5%, transparent 6%),
+    radial-gradient(circle at 0% 50%, #FEF3C7 5%, transparent 6%);
+  background-size: 40px 40px;
+}
+
+.mithila-light-pattern {
+  background-color: #FDFBF7;
+  background-image: 
+    radial-gradient(#FDE68A 0.8px, transparent 0.8px), 
+    radial-gradient(#FDE68A 0.8px, #FDFBF7 0.8px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.mithila-border {
+  border-style: double;
+  border-width: 6px;
+  border-color: #9B1C1C;
+  padding: 4px;
+}
+
+/* Glassmorphism for premium booking card updated to elegant light-glass design */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(155, 28, 28, 0.2);
+}
+
+/* Custom scrollbar matching brand colors */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FDFBF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9B1C1C;
+}
