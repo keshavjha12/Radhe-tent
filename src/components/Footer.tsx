@@ -18,9 +18,9 @@ export default function Footer({ onBookTrigger }: FooterProps) {
   ];
 
   const socialLinks = [
-    { icon: <Facebook size={18} />, href: "https://facebook.com/RedheTentHouse" },
-    { icon: <Instagram size={18} />, href: "https://instagram.com/RedheTentHouse" },
-    { icon: <Youtube size={18} />, href: "https://youtube.com/@RedheTentHouse" },
+    { icon: <Facebook size={18} />, href: "https://facebook.com/RadheTentHouse" },
+    { icon: <Instagram size={18} />, href: "https://instagram.com/RadheTentHouse" },
+    { icon: <Youtube size={18} />, href: "https://youtube.com/@RadheTentHouse" },
   ];
 
   return (
@@ -134,7 +134,7 @@ export default function Footer({ onBookTrigger }: FooterProps) {
         {/* Lower Banner Copyright with cultural tribute */}
         <div className="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between text-[11px] text-white/50 gap-4 text-center sm:text-left">
           <div>
-            <p>© {currentYear} Redhe Tent House. All rights reserved.</p>
+            <p>© {currentYear} Radhe Tent House. All rights reserved.</p>
             <p className="text-[10px] text-gold-mid/60 mt-0.5 uppercase tracking-widest font-sans font-medium">Madhubani - Mithila Event Setup Solution</p>
           </div>
           <div className="flex items-center gap-1">

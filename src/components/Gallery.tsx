@@ -75,7 +75,7 @@ export default function Gallery({ onQuickBook }: GalleryProps) {
     : galleryData.filter(item => item.category === filter);
 
   const handleWhatsAppInquiry = (item: GalleryItem) => {
-    const text = encodeURIComponent(`Pranam Redhe Tent House! I am looking for a setup similar to your gallery catalog: "${item.title}" (${item.category} setup). Please share customizable package costs.`);
+    const text = encodeURIComponent(`Pranam Radhe Tent House! I am looking for a setup similar to your gallery catalog: "${item.title}" (${item.category} setup). Please share customizable package costs.`);
     window.open(`https://wa.me/918920942854?text=${text}`, '_blank');
   };
 
@@ -93,7 +93,7 @@ export default function Gallery({ onQuickBook }: GalleryProps) {
             Moments Of Celebration
           </h2>
           <p className="font-sans text-sm sm:text-base text-gray-600">
-            Witness the elegance of tents and systems built by Redhe Tent House. Filter through categories to discover designs fitting your dream event.
+            Witness the elegance of tents and systems built by Radhe Tent House. Filter through categories to discover designs fitting your dream event.
           </p>
 
           {/* Filtering buttons */}
@@ -206,7 +206,7 @@ export default function Gallery({ onQuickBook }: GalleryProps) {
                   
                   <div className="space-y-4">
                     <div className="font-sans text-[11px] font-black tracking-widest text-royal-red uppercase">
-                      Redhe Live Work Demonstration
+                      Radhe Live Work Demonstration
                     </div>
                     
                     <h3 className="font-display font-black text-2xl text-deep-maroon">

@@ -57,7 +57,7 @@ export default function BookingForm({ selectedService = 'Wedding Setup', selecte
       `📝 *Custom Inquiry details:*`,
       `   "${formData.message || 'None'}"`,
       `━━━━━━━━━━━━━━━━━━━━━━━━`,
-      `📱 _Inquiry compiled live from Redhe Web Portal._`
+      `📱 _Inquiry compiled live from Radhe Web Portal._`
     ];
     return encodeURIComponent(textLines.join('\n'));
   };
@@ -116,7 +116,7 @@ export default function BookingForm({ selectedService = 'Wedding Setup', selecte
             </h2>
 
             <p className="font-sans text-sm sm:text-base text-gray-600 leading-relaxed">
-              Fill in your details below to lock your auspicious date with Redhe Tent House. Once submitted, our Madhubani reservation manager will review technical availability and call you back in less than 2 hours.
+              Fill in your details below to lock your auspicious date with Radhe Tent House. Once submitted, our Madhubani reservation manager will review technical availability and call you back in less than 2 hours.
             </p>
 
             <div className="space-y-4 pt-6">

@@ -95,7 +95,7 @@ export function MithilaLogo({ className = "h-12 w-auto" }: { className?: string 
       <div>
         <div className="flex flex-col">
           <span className="font-display font-extrabold text-base tracking-widest text-gold-mid uppercase leading-none">
-            REDHE
+            RADHE
           </span>
           <span className="font-sans font-medium text-[10px] tracking-[0.25em] text-white/80 leading-tight">
             TENT HOUSE

@@ -10,7 +10,7 @@ const initialTestimonials: TestimonialItem[] = [
     location: "Pandaul, Madhubani",
     date: "May 2026",
     rating: 5,
-    text: "Hired Redhe Tent House for my daughter's wedding setup in Madhubani. Outstanding waterproof Pandal! The drapes were ironed and spotless. The heavy sound and pixel LED lights made the entrance feel incredibly grand and beautiful.",
+    text: "Hired Radhe Tent House for my daughter's wedding setup in Madhubani. Outstanding waterproof Pandal! The drapes were ironed and spotless. The heavy sound and pixel LED lights made the entrance feel incredibly grand and beautiful.",
     eventType: "Wedding Ceremony"
   },
   {
@@ -97,7 +97,7 @@ export default function Testimonials() {
             Praise From Mithila Families
           </h2>
           <p className="font-sans text-sm sm:text-base text-gray-600">
-            Real reviews from real home owners and event sponsors who successfully trusted Redhe Tent House with their family's happiest moments.
+            Real reviews from real home owners and event sponsors who successfully trusted Radhe Tent House with their family's happiest moments.
           </p>
         </div>
 
@@ -176,7 +176,7 @@ export default function Testimonials() {
                   <CheckCircle2 size={32} className="text-emerald-500 animate-pulse" />
                   <h4 className="font-bold">Blessing Shared!</h4>
                   <p className="text-xs">
-                    Thank you so much! Your valuable recommendation has been added to our homepage testimonials. Keep supporting Redhe Tent House.
+                    Thank you so much! Your valuable recommendation has been added to our homepage testimonials. Keep supporting Radhe Tent House.
                   </p>
                 </div>
               ) : null}

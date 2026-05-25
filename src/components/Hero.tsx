@@ -30,7 +30,7 @@ export default function Hero({ onBookClick }: HeroProps) {
   ];
 
   const handleWhatsApp = () => {
-    const text = encodeURIComponent("Pranam Redhe Tent House! I want to inquire about dynamic services (Tent, DJ, Lighting, Stage setup) for my upcoming event.");
+    const text = encodeURIComponent("Pranam Radhe Tent House! I want to inquire about dynamic services (Tent, DJ, Lighting, Stage setup) for my upcoming event.");
     window.open(`https://wa.me/918920942854?text=${text}`, '_blank');
   };
 

@@ -30,7 +30,7 @@ export default function InquiryPopup({ isOpen, onClose }: InquiryPopupProps) {
   };
 
   const handleWhatsAppQuickInquiry = () => {
-    const text = encodeURIComponent(`Pranam Redhe Tent House! I want to quickly book a priority consultation slot. My Name is ${name || 'Interested client'} and Phone is ${phone || 'Not Specified'}. I am planning a ${ceremony}.`);
+    const text = encodeURIComponent(`Pranam Radhe Tent House! I want to quickly book a priority consultation slot. My Name is ${name || 'Interested client'} and Phone is ${phone || 'Not Specified'}. I am planning a ${ceremony}.`);
     window.open(`https://wa.me/918920942854?text=${text}`, '_blank');
   };
 

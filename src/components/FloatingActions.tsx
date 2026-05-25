@@ -21,7 +21,7 @@ export default function FloatingActions({ onBookClick }: FloatingActionsProps) {
   };
 
   const handleWhatsApp = () => {
-    const text = encodeURIComponent("Pranam Redhe Tent House! I want to quickly consult about tent and lighting packages for my upcoming ceremony.");
+    const text = encodeURIComponent("Pranam Radhe Tent House! I want to quickly consult about tent and lighting packages for my upcoming ceremony.");
     window.open(`https://wa.me/918920942854?text=${text}`, '_blank');
   };
 

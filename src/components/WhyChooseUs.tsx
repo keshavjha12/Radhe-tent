@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
             <span>विशेषता हमारी (Our Advantages)</span>
           </div>
           <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl">
-            Why Mithila Trusts Redhe
+            Why Mithila Trusts Radhe
           </h2>
           <p className="font-sans text-festive-yellow/80 text-sm sm:text-base">
             Professionalism blended with local values. We take care of structural, electrical, and audio management so you can enjoy sacred family milestones with peace of mind.

@@ -44,7 +44,7 @@ export default function AboutUs() {
             </h2>
 
             <p className="font-sans text-base text-gray-700 leading-relaxed">
-              Based in the heart of <strong>Madhubani, Bihar</strong>, <strong>Redhe Tent House</strong> has been the gold standard for exquisite catering-support, tent decor, and acoustic brilliance throughout the entire <strong>Mithila region</strong>. We believe that a wedding, thread ceremony (Upnayan), or shaving ceremony (Mundan) is not just an event—it’s a divine convergence of hearts and local rituals.
+              Based in the heart of <strong>Madhubani, Bihar</strong>, <strong>Radhe Tent House</strong> has been the gold standard for exquisite catering-support, tent decor, and acoustic brilliance throughout the entire <strong>Mithila region</strong>. We believe that a wedding, thread ceremony (Upnayan), or shaving ceremony (Mundan) is not just an event—it’s a divine convergence of hearts and local rituals.
             </p>
 
             <p className="font-sans text-base text-gray-600 leading-relaxed">
@@ -54,10 +54,10 @@ export default function AboutUs() {
             {/* Embedded Mini Mithila art quote box with customized double line border */}
             <div className="p-6 bg-festive-yellow border-l-4 border-gold-mid rounded-r-xl">
               <p className="font-serif italic text-deep-maroon font-semibold text-lg">
-                "मिथिलाक पावन माटि आ संस्कृति में रचल-बसल सेवा। अहाँक घरक नीक काजक लेल रेड्हे टेन्ट हाउस सदैव तत्पर।"
+                "मिथिलाक पावन माटि आ संस्कृति में रचल-बसल सेवा। अहाँक घरक नीक काजक लेल राधे टेन्ट हाउस सदैव तत्पर।"
               </p>
               <p className="font-sans text-xs text-royal-red font-bold mt-2 uppercase tracking-widest text-right">
-                — Redhe Event Promise
+                — Radhe Event Promise
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function AboutUs() {
               {/* Hover Badge */}
               <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-deep-maroon/90 border border-gold-mid/30 backdrop-blur-sm text-white">
                 <div className="font-display font-extrabold text-gold-mid text-lg uppercase tracking-wide">
-                  Redhe Tent House
+                  Radhe Tent House
                 </div>
                 <div className="font-sans text-xs text-white/80 mt-1">
                   Established 2011 • Trusted by 10,000+ Families across Bihar.
